@@ -90,16 +90,16 @@ h5{
     transition: transform 0.5s;
 }
 .card1{
-    background-image: url('https://i.pinimg.com/564x/a2/98/a6/a298a693a7e245d621dbccd7bb05d5f9.jpg');
+    background-image: url(https://i.pinimg.com/564x/a2/98/a6/a298a693a7e245d621dbccd7bb05d5f9.jpg);
 }
 .card2{
-    background-image: url('https://i.pinimg.com/564x/d2/08/1c/d2081ccc1d7cb75c99f8c2e9d91ceb4f.jpg');
+    background-image: url(https://i.pinimg.com/564x/d2/08/1c/d2081ccc1d7cb75c99f8c2e9d91ceb4f.jpg);
 }
 .card3{
-    background-image: url('https://i.pinimg.com/564x/15/70/b4/1570b4143c0e673c0b0079550de12129.jpg');
+    background-image: url(https://i.pinimg.com/564x/15/70/b4/1570b4143c0e673c0b0079550de12129.jpg);
 }
 .card4{
-    background-image: url('https://i.pinimg.com/564x/b4/e5/33/b4e533d0725841cd1a9f4a5a0673f41c.jpg');
+    background-image: url(https://i.pinimg.com/564x/b4/e5/33/b4e533d0725841cd1a9f4a5a0673f41c.jpg);
 }
 .card:hover{
     transform: translateY(-10px);
@@ -216,4 +216,18 @@ h5{
 }
 .wrapper .button:nth-child(4):hover span {
     color: #211F1F;
+}
+.profile{
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 5px #999;
+    font-size: 50px;
+    padding-top: 20px;
+}
+.profile1{
+    font-size: 15px;
+    color:white;
+}
+.container1{
+    margin: 20px;
 }
