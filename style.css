@@ -1,0 +1,218 @@
+*{
+    text-decoration: none;
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar1{
+    padding-top: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.navbar2{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.navbar3{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+nav{
+    text-align: left;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+.row{
+    height: 88%;
+    align-items: center;
+    display: flex;
+}
+.home{
+    color: white;
+    font-size: 100px;
+}
+.magazine{
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 5px #999;
+    font-size: 50px;
+    padding-top: 20px;
+}
+.about{
+    color: white;
+    text-shadow: 0 0 5px #999;
+    font-size: 80px;
+    text-align: center;
+}
+p{
+    color: white;
+    font-size: 12 px;
+    line-height: 15px;
+}
+.about1{
+    text-align:center;
+    margin: 15px;
+    color: white;
+    font-size: 15px;
+}
+.col{
+    flex-basis: 50%;
+}
+h5{
+    color: white;
+    text-shadow: 0 0 5px #999;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card1{
+    background-image: url(https://i.pinimg.com/564x/a2/98/a6/a298a693a7e245d621dbccd7bb05d5f9.jpg);
+}
+.card2{
+    background-image: url(https://i.pinimg.com/564x/d2/08/1c/d2081ccc1d7cb75c99f8c2e9d91ceb4f.jpg);
+}
+.card3{
+    background-image: url(https://i.pinimg.com/564x/15/70/b4/1570b4143c0e673c0b0079550de12129.jpg);
+}
+.card4{
+    background-image: url(https://i.pinimg.com/564x/b4/e5/33/b4e533d0725841cd1a9f4a5a0673f41c.jpg);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.card p{
+    text-shadow: 0 0 15px white;
+    font-size: 8px;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+.photo{
+    width: 275px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin:20px;
+}
+.photo:hover{
+    transform: translateY(-10px);
+}
+.photo img{
+    width: 100%;
+    height:auto;
+}
+.card-content{
+    padding: 16px;
+}
+.card-content h3{
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+.card-content .btn{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #775f69;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 16px;
+    color: white;
+}
+.wrapper {
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+.wrapper .button {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin: 0 5px;
+    overflow: hidden;
+    border-radius: 50px;
+    background: #fff;
+    cursor: pointer;
+    box-shadow: 0 6px 6px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease-out;
+}
+.wrapper .button:hover {
+    width: 200px;
+}
+.wrapper .button .icon {
+    display: inline-block;
+    text-align: center;
+    width: 48px;
+    line-height: 50px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    transition: all 0.2s ease-out;
+}
+.wrapper .button:nth-child(1):hover .icon{
+    background: #0866ff;
+}
+.wrapper .button:nth-child(2):hover .icon{
+    background: #D62976;
+}
+.wrapper .button:nth-child(3):hover .icon{
+    background: #08a0e9;
+}
+.wrapper .button:nth-child(4):hover .icon{
+    background: #211F1F;
+}
+.wrapper .button .icon i{
+    font-size: 25px;
+    line-height: 50px;
+    transition: all 0.2s ease-out;
+}
+.wrapper .button:hover .icon i{
+    color: #fff;
+}
+.wrapper .button span {
+    font-size: 23px;
+    font-weight: 450;
+    line-height: 55px;
+    margin-left: 8px;
+    transition: all 0.2s ease-out;
+}
+.wrapper .button:nth-child(1):hover span {
+    color: #0866ff;
+}
+.wrapper .button:nth-child(2):hover span {
+    color: #D62976;
+}
+.wrapper .button:nth-child(3):hover span {
+    color: #08a0e9;
+}
+.wrapper .button:nth-child(4):hover span {
+    color: #211F1F;
+}
